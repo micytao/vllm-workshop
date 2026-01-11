@@ -86,8 +86,6 @@ Deepen your knowledge with these resources:
 
 Ready for more? Here are some next steps:
 
-![Red Hat AI Inference Server](assets/images/conclusion-rhaiis.png)
-
 | Path | Focus Area |
 |------|------------|
 | **Intermediate** | Explore different model architectures and their tool calling capabilities |
@@ -141,7 +139,7 @@ Start with <strong>vLLM Playground</strong> — the easiest way to explore vLLM'
 ---
 
 **Workshop**: vLLM Workshop  
-**Completed**: Today  
+**Completed**: Jan 2026  
 **Duration**: ~90 minutes  
 **Modules Completed**: 5  
 
