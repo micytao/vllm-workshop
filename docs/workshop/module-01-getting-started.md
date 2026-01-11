@@ -133,12 +133,16 @@ With the environment validated, ACME is ready to deploy their first LLM. You'll 
 
     For this exercise, select `TinyLlama 1.1B Chat` from the dropdown — it's fast and doesn't require authentication.
 
+    ![Model Selection](../assets/images/module-01-figure-02.png)
+
 5. **Configure the Run Mode:**
 
     - **Subprocess**: Runs vLLM directly as a Python subprocess (requires vLLM preinstalled)
     - **Container**: Runs vLLM in an isolated Podman container (recommended)
 
     Select **Container** mode for better isolation.
+
+    ![Run Mode Selection](../assets/images/module-01-figure-03.png)
 
 6. **Configure the Compute Mode:**
 
@@ -147,14 +151,21 @@ With the environment validated, ACME is ready to deploy their first LLM. You'll 
 
     Select **GPU** mode if available.
 
+    !!! warning "GPU Mode Requires Root Privilege"
+        Running containers with GPU access requires root privilege. The vLLM container will be started with `sudo` when GPU mode is selected.
+
+    ![Compute Mode Selection](../assets/images/module-01-figure-04.png)
+
 7. **Review the Command Preview** at the bottom — it shows the exact vLLM command that will run.
+
+    ![Command Preview](../assets/images/module-01-figure-05.png)
 
 8. **Click "Start Server"**
 
 9. **Wait for the model to load.** You can monitor progress in the interface or check container logs:
 
     ```bash
-    podman logs -f vllm-service
+    sudo podman logs -f vllm-service
     ```
 
     !!! note "Sudo for GPU Access"
@@ -164,6 +175,8 @@ With the environment validated, ACME is ready to deploy their first LLM. You'll 
 
 Look for these indicators that the server is ready:
 
+![Server Ready](../assets/images/module-01-figure-06.png)
+
 - [x] The **Server Logs** panel shows `Application startup complete.`
 - [x] A green **"Server is ready to chat!"** toast notification appears
 - [x] The **Send** button in the chat interface turns green
@@ -171,7 +184,7 @@ Look for these indicators that the server is ready:
 You can also verify the container is running:
 
 ```bash
-podman ps
+sudo podman ps
 ```
 
 - [x] Container `vllm-service` is running
@@ -216,6 +229,8 @@ Now that the vLLM server is running, you'll explore the chat interface and have 
     - Conversation history in the main panel
     - Model settings in the sidebar
 
+    ![Chat Interface](../assets/images/module-01-figure-07.png)
+
 2. **Send your first message to test the model:**
 
     ```
@@ -245,6 +260,8 @@ Now that the vLLM server is running, you'll explore the chat interface and have 
 
     These metrics highlight the high throughput that vLLM delivers.
 
+    ![Response Metrics](../assets/images/module-01-figure-08.png)
+
 5. **Explore the chat settings:**
 
     - **Temperature**: Controls randomness (lower = more deterministic)
@@ -260,6 +277,8 @@ Now that the vLLM server is running, you'll explore the chat interface and have 
 
     !!! tip "Templates"
         Click the **Templates** dropdown to access preset system prompt templates for common use cases.
+
+    ![System Prompt](../assets/images/module-01-figure-09.png)
 
 6. **Send another message with the system prompt active:**
 

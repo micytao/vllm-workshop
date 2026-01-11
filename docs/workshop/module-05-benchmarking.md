@@ -108,6 +108,8 @@ GuideLLM is a benchmarking tool that:
 
     This confirms the OpenAI-compatible API is accessible.
 
+    ![API Models Response](../assets/images/module-05-figure-01.png)
+
 6. **Understand GuideLLM benchmark options:**
 
     | Option | Purpose |
@@ -170,9 +172,13 @@ Now you'll run your first benchmark and learn to interpret the results. ACME nee
 
 4. **Click Run Benchmark** to start.
 
+    ![GuideLLM Panel](../assets/images/module-05-figure-02.png)
+
     This runs 100 requests at 5 requests/second using 100 prompt tokens and 100 output tokens.
 
 5. **Wait for the benchmark to complete.** You'll see progress indicators and then results.
+
+    ![GuideLLM Advanced with Raw Output](../assets/images/module-05-figure-03.png)
 
 6. **Review the benchmark results.** The GuideLLM panel provides three output formats:
 
@@ -205,6 +211,8 @@ Now you'll run your first benchmark and learn to interpret the results. ACME nee
     | P90 | 3.512 | 3511.61 |
     | P95 | 3.518 | 3517.99 |
     | P99 | 3.559 | 3558.93 |
+
+    ![Benchmark Summary Table](../assets/images/module-05-figure-04.png)
 
 8. **Understand each metric:**
 

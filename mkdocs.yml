@@ -36,7 +36,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   logo: assets/images/vllm-logo.svg
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/vLLM-logo.png
 
 plugins:
   - search

@@ -28,7 +28,7 @@ If you're short on time, focus on these modules:
 | Component | Version |
 |-----------|---------|
 | vLLM Playground | v0.1.1+ |
-| vLLM | v0.6.0+ |
+| vLLM | v0.11.0+ |
 | Podman | 4.0+ (or Docker) |
 | Python | 3.10+ (required for MCP) |
 | NVIDIA GPU | CUDA support |
@@ -140,7 +140,7 @@ vllm-playground
 
 - 📦 [vLLM Playground GitHub Repository](https://github.com/micytao/vllm-playground) — Source code and documentation
 - 📚 [vLLM Project](https://github.com/vllm-project/vllm) — The underlying high-performance inference engine
-- 📊 [GuideLLM Documentation](https://github.com/neuralmagic/guidellm) — Performance benchmarking tool
+- 📊 [GuideLLM Documentation](https://github.com/vllm-project/guidellm) — Performance benchmarking tool
 - 🔗 [Model Context Protocol](https://modelcontextprotocol.io) — MCP specification and servers
 
 ### Additional Learning Paths

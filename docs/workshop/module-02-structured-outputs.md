@@ -53,6 +53,8 @@ You'll configure vLLM to output only valid sentiment labels, ensuring reliable a
 
 5. **Click "Enable Structured Outputs".**
 
+    ![Structured Outputs Panel](../assets/images/module-02-figure-01.png)
+
 6. **Select Choice mode** for simple constrained outputs.
 
 7. **Configure the sentiment choices:**
@@ -79,6 +81,8 @@ You'll configure vLLM to output only valid sentiment labels, ensuring reliable a
 
     **Expected output:** `positive`
 
+    ![Sentiment Positive Result](../assets/images/module-02-figure-02.png)
+
 10. **Test with negative feedback:**
 
     ```
@@ -96,6 +100,8 @@ You'll configure vLLM to output only valid sentiment labels, ensuring reliable a
     ```
 
     **Expected output:** `neutral`
+
+    ![Sentiment Neutral Result](../assets/images/module-02-figure-03.png)
 
 ### ✅ Verify
 
@@ -127,6 +133,8 @@ You'll define a JSON Schema that constrains the model to output properly structu
 1. **Click the Clear button** in the Chat Interface to start a new conversation.
 
 2. **In the Structured Outputs panel, select JSON mode.**
+
+    ![JSON Mode Selection](../assets/images/module-02-figure-04.png)
 
 3. **Define a schema for customer support ticket extraction:**
 
@@ -184,6 +192,8 @@ You'll define a JSON Schema that constrains the model to output properly structu
       "requires_escalation": true
     }
     ```
+
+    ![JSON Schema Response](../assets/images/module-02-figure-05.png)
 
 6. **Test with a different scenario:**
 
@@ -246,6 +256,8 @@ You'll use Regex constraints to enforce this precise format.
 
 3. **Define a pattern for ACME ticket IDs:**
 
+    ![Regex Mode](../assets/images/module-02-figure-07.png)
+
     ```
     ACME-[A-Z]{4}-[0-9]{4}
     ```
@@ -272,6 +284,8 @@ You'll use Regex constraints to enforce this precise format.
 
     **Expected output format:** `ACME-BXYZ-1234` (exact letters/numbers will vary)
 
+    ![Regex Ticket ID Result](../assets/images/module-02-figure-08.png)
+
 6. **Verify the format matches:**
     - Starts with `ACME-`
     - Followed by 4 uppercase letters
@@ -293,6 +307,8 @@ You'll use Regex constraints to enforce this precise format.
     ```
 
     **Expected output:** `(555) 123-4567`
+
+    ![Phone Number Formatting](../assets/images/module-02-figure-09.png)
 
 ### ✅ Verify
 
@@ -370,6 +386,8 @@ You'll define a custom Grammar to enforce a report structure with sections, bull
     - Overall satisfaction score, 94 percent
     ## REPORT END ##
     ```
+
+    ![Grammar Mode Output](../assets/images/module-02-figure-10.png)
 
 ### ✅ Verify
 

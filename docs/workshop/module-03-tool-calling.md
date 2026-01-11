@@ -58,6 +58,8 @@ Different model families use different formats for tool calling. vLLM supports s
     - Check **Enable Tool Calling**
     - Select a tool calling parser (or leave as "Auto-detect")
 
+    ![Enable Tool Calling](../assets/images/module-03-figure-01.png)
+
 4. **For this exercise, configure:**
 
     | Setting | Value |
@@ -115,9 +117,13 @@ A tool definition includes:
 
 1. **In vLLM Playground, navigate to the Tools panel** (🔧 icon in the toolbar).
 
+    ![Tool Calling Panel](../assets/images/module-03-figure-02.png)
+
 2. **Click Add Tool** to define your first customer support function.
 
 3. **Create an order status lookup tool:**
+
+    ![Add New Tool Dialog](../assets/images/module-03-figure-03.png)
 
     ```json
     {
@@ -228,6 +234,8 @@ A tool definition includes:
 
 7. **Your tools panel should now show 4 defined tools.**
 
+    ![Tools Panel with 4 Tools](../assets/images/module-03-figure-04.png)
+
 ### ✅ Verify
 
 Confirm tools are properly defined:
@@ -289,6 +297,8 @@ Now you'll see tool calling in action. The AI will analyze customer messages and
     !!! note "Streaming Disabled"
         Streaming is disabled for tool calling due to a bug in vLLM v0.11.0. This has been resolved in later versions.
 
+    ![Order Status Tool Call](../assets/images/module-03-figure-05.png)
+
 5. **Observe the response format:**
     - The AI recognizes the need for external data
     - Instead of making up information, it generates a function call
@@ -310,6 +320,8 @@ Now you'll see tool calling in action. The AI will analyze customer messages and
     }
     ```
 
+    ![Multiple Tool Calls](../assets/images/module-03-figure-06.png)
+
 7. **Test callback scheduling:**
 
     ```
@@ -329,6 +341,8 @@ Now you'll see tool calling in action. The AI will analyze customer messages and
     }
     ```
 
+    ![Schedule Callback Tool Call](../assets/images/module-03-figure-07.png)
+
 8. **Test product search:**
 
     ```
@@ -347,6 +361,8 @@ Now you'll see tool calling in action. The AI will analyze customer messages and
     }
     ```
 
+    ![Search Products Tool Call](../assets/images/module-03-figure-08.png)
+
 9. **Test a message that doesn't need tools:**
 
     ```
@@ -362,6 +378,8 @@ Now you'll see tool calling in action. The AI will analyze customer messages and
     ```
 
     Observe: The AI may generate multiple tool calls or prioritize one.
+
+    ![Multiple Tool Calls for Order and Search](../assets/images/module-03-figure-09.png)
 
 ### ✅ Verify
 

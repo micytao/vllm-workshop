@@ -140,6 +140,8 @@ Model Context Protocol (MCP) is an open standard developed to enable AI models t
 
 7. **Navigate to the MCP Servers section** in the sidebar to verify MCP support is available.
 
+    ![MCP Server Configuration](../assets/images/module-04-figure-01.png)
+
     You should see preset MCP server options:
 
     | Server | Purpose |
@@ -207,15 +209,21 @@ ACME's support team needs current time information to help customers with schedu
 
 5. **Click Save Server** to save the MCP server configuration.
 
+    ![Add Time Server](../assets/images/module-04-figure-02.png)
+
 6. **Click the Connect toggle** to establish the connection.
 
 7. **Wait for the connection.** You should see:
     - Status indicator turns green
     - Available tools from the server are listed (e.g., `get_current_time`)
 
+    ![Time Server Connected](../assets/images/module-04-figure-03.png)
+
 8. **In the Chat panel, enable MCP tools:**
     - Look for the MCP tools toggle
     - Ensure Time server tools are enabled
+
+    ![MCP Panel in Chat](../assets/images/module-04-figure-04.png)
 
 9. **Test the Time server with a prompt:**
 
@@ -232,7 +240,11 @@ ACME's support team needs current time information to help customers with schedu
 
 10. **When prompted for approval, review the tool call and click Execute.**
 
+    ![Human-in-the-Loop Approval](../assets/images/module-04-figure-05.png)
+
 11. **Click Continue Conversation** to allow the AI to process the result.
+
+    ![Tool Executed with Result](../assets/images/module-04-figure-06.png)
 
 12. **Observe the complete flow:**
     - AI generates tool call
@@ -240,6 +252,8 @@ ACME's support team needs current time information to help customers with schedu
     - MCP server executes the tool
     - Result returns to AI
     - AI incorporates result in response
+
+    ![AI Response with Real Time](../assets/images/module-04-figure-07.png)
 
 13. **Test additional time queries:**
 
@@ -320,6 +334,10 @@ ACME's support team needs the AI to analyze customer documents, read configurati
 
 4. **Click Save Server and Connect.**
 
+    ![Filesystem Server Config](../assets/images/module-04-figure-08.png)
+
+    ![Filesystem Tools Available](../assets/images/module-04-figure-09.png)
+
 5. **Create test files for the AI to analyze:**
 
     ```bash
@@ -372,11 +390,15 @@ ACME's support team needs the AI to analyze customer documents, read configurati
 
 8. **Click Execute** to approve the file read operation.
 
+    ![Read File Result](../assets/images/module-04-figure-10.png)
+
 9. **Test directory listing:**
 
     ```
     What files are available in the ~/documents folder?
     ```
+
+    ![Directory Listing Result](../assets/images/module-04-figure-11.png)
 
 10. **Test document analysis:**
 
@@ -384,6 +406,8 @@ ACME's support team needs the AI to analyze customer documents, read configurati
     Based on the products.txt file, what's the most expensive item 
     and what's the cheapest?
     ```
+
+    ![Document Analysis Result](../assets/images/module-04-figure-12.png)
 
 ### ✅ Verify
 
@@ -466,6 +490,8 @@ Human-in-the-loop ensures:
     - **FAQ read**: Get support hours and return policy
     - **Products read**: Get earbuds information
 
+    ![Multiple Tool Calls Awaiting Approval](../assets/images/module-04-figure-13.png)
+
 5. **Test the safety controls with an inappropriate request:**
 
     ```
@@ -476,6 +502,8 @@ Human-in-the-loop ensures:
     
     - If directory not in allowed list: Tool call should fail or not be attempted
     - AI should explain it can only access authorized directories
+
+    ![Access Denied - Security Control](../assets/images/module-04-figure-14.png)
 
 6. **Experiment with denying a request:**
 
