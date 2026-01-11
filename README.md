@@ -1,6 +1,7 @@
 # vLLM Workshop
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://micytao.github.io/vllm-workshop)
 
-🎓 **Hands-on learning powered by [vLLM Playground](https://github.com/micytao/vllm-playground)**
+📚 **Hands-on learning powered by [vLLM Playground](https://github.com/micytao/vllm-playground)**
 
 A comprehensive workshop for learning vLLM — the high-performance LLM inference engine — through practical, hands-on exercises.
 
