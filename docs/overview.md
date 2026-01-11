@@ -1,4 +1,5 @@
-# Workshop Overview (Role Play)
+# Workshop Overview
+🎬 *Your Mission, Should You Choose to Accept It*
 
 ## Your Role and Mission
 
@@ -65,7 +66,7 @@ You should have:
 | **Manual model management** | Deploying and updating models requires significant effort → slows down iteration cycles |
 | **Scalability concerns** | Uncertain if current approach can handle production traffic → risk to customer experience |
 
-**The opportunity**: vLLM Playground provides a unified platform for model serving with advanced features that can address these challenges, and you've been selected to evaluate its feasibility for ACME's use case.
+**The opportunity**: vLLM provides a unified platform for model serving with advanced features that can address these challenges, and you've been selected to evaluate its feasibility for ACME's use case.
 
 ## Your Vision of Success
 
