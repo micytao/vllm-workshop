@@ -75,7 +75,7 @@ You can work at your own pace and skip modules based on your interests.
 
 ## Let's Get Started!
 
-Click on **[Workshop Overview](overview.md)** in the navigation to begin your learning journey with ACME Corporation!
+Click on **[Workshop Overview](overview.md)** in the navigation to begin your learning journey with vLLM!
 
 ---
 

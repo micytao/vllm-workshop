@@ -1,4 +1,4 @@
-# Workshop Overview
+# Workshop Overview (Role Play)
 
 ## Your Role and Mission
 
@@ -87,7 +87,7 @@ If vLLM proves effective for ACME's use case, here are the potential improvement
 ## Common Questions
 
 ??? question "Can we use different models for different use cases?"
-    Yes! vLLM Playground supports various models including Llama, Mistral, and Qwen with model-specific optimizations.
+    Yes! vLLM supports various models including Llama, Mistral, and Qwen with model-specific optimizations.
 
 ??? question "What about controlling AI outputs for our systems?"
     Module 2 covers structured outputs using JSON Schema, Regex, and Grammar to constrain responses.
