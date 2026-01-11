@@ -1,0 +1,91 @@
+site_name: vLLM Workshop
+site_description: Hands-on learning powered by vLLM Playground
+site_author: Michael Yang
+site_url: https://micytao.github.io/vllm-workshop
+
+repo_name: micytao/vllm-workshop
+repo_url: https://github.com/micytao/vllm-workshop
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/images/vllm-logo.svg
+  favicon: assets/images/favicon.ico
+
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/micytao/vllm-playground
+      name: vLLM Playground on GitHub
+  generator: false
+
+copyright: >
+  Built with ❤️ using <a href="https://github.com/micytao/vllm-playground">vLLM Playground</a>
+
+nav:
+  - Home: index.md
+  - Workshop Overview: overview.md
+  - Workshop Details: details.md
+  - Workshop:
+    - "Module 1: Getting Started": workshop/module-01-getting-started.md
+    - "Module 2: Structured Outputs": workshop/module-02-structured-outputs.md
+    - "Module 3: Tool Calling": workshop/module-03-tool-calling.md
+    - "Module 4: MCP Integration": workshop/module-04-mcp-integration.md
+    - "Module 5: Performance Testing": workshop/module-05-benchmarking.md
+  - Conclusion: conclusion.md

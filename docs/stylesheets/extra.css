@@ -1,0 +1,84 @@
+/* vLLM Workshop Custom Styles */
+
+/* Hero section styling */
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+/* Better image styling */
+.md-typeset img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Admonition customization */
+.md-typeset .admonition.tip {
+  border-color: #00bcd4;
+}
+
+.md-typeset .admonition.note {
+  border-color: #7c4dff;
+}
+
+/* Code block improvements */
+.md-typeset pre > code {
+  border-radius: 6px;
+}
+
+/* Table styling */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* Task list styling */
+.md-typeset .task-list-item input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+/* vLLM Playground branding */
+.vllm-playground-callout {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.vllm-playground-callout a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Footer link styling */
+.md-footer-meta {
+  background-color: var(--md-default-bg-color);
+}
+
+/* Navigation improvements */
+.md-nav__link--active {
+  font-weight: 600;
+}
+
+/* Better spacing for lists */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.3em;
+}
+
+/* Verification checkmarks */
+.md-typeset .verify-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.md-typeset .verify-list li::before {
+  content: "✓ ";
+  color: #4caf50;
+  font-weight: bold;
+}
