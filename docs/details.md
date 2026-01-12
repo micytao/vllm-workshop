@@ -18,7 +18,7 @@ If you're short on time, focus on these modules:
 
 | Module | Topic | Duration |
 |--------|-------|----------|
-| **Module 1** | Getting Started with vLLM Playground | 15 minutes |
+| **Module 1** | Getting Started with vLLM Playground | 18 minutes |
 | **Module 5** | Performance Testing | 18 minutes |
 
 ## Technical Requirements
