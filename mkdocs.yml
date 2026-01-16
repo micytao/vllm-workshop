@@ -81,7 +81,7 @@ copyright: >
 nav:
   - Home: index.md
   - Overview: overview.md
-  - Details: details.md
+  - Before You Begin: details.md
   - Workshop:
     - "Module 1: Getting Started": workshop/module-01-getting-started.md
     - "Module 2: Structured Outputs": workshop/module-02-structured-outputs.md

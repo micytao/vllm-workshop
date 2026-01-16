@@ -1,4 +1,20 @@
-# Workshop Details
+# Before You Begin
+
+## Choose Your Path
+
+This content is available in two formats:
+
+| Path | Description | Best For |
+|------|-------------|----------|
+| **[Workshop](workshop/module-01-getting-started.md)** | Hands-on, self-paced learning with detailed step-by-step instructions | Individual learners working through the material on their own |
+| **[Demo](demo/module-01-getting-started.md)** | Presentation-ready format with ACME Corporation business scenario | Instructors, presenters, or those following along with a live demo |
+
+Both paths cover the same 5 modules but with different contexts:
+
+- **Workshop**: Focus on learning vLLM Playground features at your own pace
+- **Demo**: Business-focused narrative showing how ACME Corporation transforms their customer support with AI
+
+---
 
 ## Timing and Schedule
 
@@ -164,4 +180,9 @@ vllm-playground
 
 ---
 
-**Ready to start?** Begin with [Module 1: Getting Started](workshop/module-01-getting-started.md)!
+## Ready to Start?
+
+Choose your learning path:
+
+- 📚 **Workshop Path**: [Module 1: Getting Started](workshop/module-01-getting-started.md) — Self-paced, hands-on learning
+- 🎬 **Demo Path**: [Module 1: Getting Started](demo/module-01-getting-started.md) — Presentation-ready with ACME business scenario
