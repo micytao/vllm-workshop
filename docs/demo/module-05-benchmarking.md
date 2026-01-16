@@ -425,6 +425,10 @@ You've successfully completed the Performance Testing module and the entire vLLM
 
 ---
 
+---
+
+**Congratulations!** You've completed all modules. Continue to the [Conclusion](../conclusion.md) for next steps.
+
 ## References
 
 - [vLLM Playground - Benchmarking Documentation](https://github.com/micytao/vllm-playground)

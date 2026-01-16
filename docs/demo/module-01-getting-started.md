@@ -391,6 +391,10 @@ Module 2 will explore **Advanced Inferencing: Structured Outputs** - learning ho
 
 ---
 
+---
+
+**Next:** [Module 2: Structured Outputs](module-02-structured-outputs.md) — Learn how to constrain model responses to specific formats using JSON Schema, Regex, and Grammar.
+
 ## References
 
 - [vLLM Playground GitHub Repository](https://github.com/micytao/vllm-playground) - Installation and configuration

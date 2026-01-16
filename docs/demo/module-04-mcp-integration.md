@@ -800,6 +800,10 @@ This agentic AI implementation positions ACME to scale support operations withou
 
 ---
 
+---
+
+**Next:** [Module 5: Performance Testing](module-05-benchmarking.md) — Use GuideLLM to benchmark your vLLM server and optimize for production.
+
 ## References
 
 - [vLLM Playground - MCP Documentation](https://github.com/micytao/vllm-playground)

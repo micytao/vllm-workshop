@@ -523,6 +523,10 @@ Module 3 will explore **Advanced Inferencing: Tool Calling** - enabling the AI t
 
 ---
 
+---
+
+**Next:** [Module 3: Tool Calling](module-03-tool-calling.md) — Enable the AI to execute functions, retrieve data, and perform actions.
+
 ## References
 
 - [vLLM Playground - Structured Outputs Documentation](https://github.com/micytao/vllm-playground)

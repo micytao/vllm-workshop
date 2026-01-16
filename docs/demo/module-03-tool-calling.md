@@ -536,3 +536,7 @@ You've successfully completed the Advanced Inferencing: Tool Calling module.
 **Next steps:**
 
 Module 4 will explore **Advanced Inferencing: MCP Integration** - connecting the AI to actual external tools with human-in-the-loop approval for safe execution.
+
+---
+
+**Next:** [Module 4: MCP Integration](module-04-mcp-integration.md) — Connect the AI to actual external tools with human-in-the-loop approval.
