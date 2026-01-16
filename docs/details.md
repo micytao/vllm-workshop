@@ -18,7 +18,9 @@ Both paths cover the same 5 modules but with different contexts:
 
 ## Timing and Schedule
 
-### Full Workshop (90 minutes)
+### 📚 Workshop Path (90 minutes)
+
+Self-paced, hands-on learning with detailed step-by-step instructions.
 
 | Module | Topic | Duration |
 |--------|-------|----------|
@@ -28,14 +30,26 @@ Both paths cover the same 5 modules but with different contexts:
 | **Module 4** | Advanced Inferencing: MCP Integration | 18 minutes |
 | **Module 5** | Performance Testing | 18 minutes |
 
-### Quick Start Workshop (36 minutes)
+### 🎬 Demo Path (45 minutes)
 
-If you're short on time, focus on these modules:
+Presentation-ready format for live demonstrations.
 
 | Module | Topic | Duration |
 |--------|-------|----------|
-| **Module 1** | Getting Started with vLLM Playground | 18 minutes |
-| **Module 5** | Performance Testing | 18 minutes |
+| **Module 1** | Getting Started with vLLM Playground | 8 minutes |
+| **Module 2** | Advanced Inferencing: Structured Outputs | 10 minutes |
+| **Module 3** | Advanced Inferencing: Tool Calling | 10 minutes |
+| **Module 4** | Advanced Inferencing: MCP Integration | 10 minutes |
+| **Module 5** | Performance Testing | 7 minutes |
+
+### Quick Start (20-36 minutes)
+
+If you're short on time, focus on these modules:
+
+| Path | Modules | Duration |
+|------|---------|----------|
+| **Workshop** | Module 1 + Module 5 | 36 minutes |
+| **Demo** | Module 1 + Module 5 | 15 minutes |
 
 ## Technical Requirements
 

@@ -67,12 +67,6 @@ vllm-playground
 
 Open [http://localhost:7860](http://localhost:7860) and you're ready to begin!
 
-## Estimated Time
-
-This workshop will take approximately **90 minutes** to complete.
-
-You can work at your own pace and skip modules based on your interests.
-
 ## Let's Get Started!
 
 Click on **[Workshop Overview](overview.md)** in the navigation to begin your learning journey with vLLM!

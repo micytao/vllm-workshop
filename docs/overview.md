@@ -104,4 +104,4 @@ If vLLM proves effective for ACME's use case, here are the potential improvement
 
 ---
 
-**Ready to begin?** Continue to [Workshop Details](details.md) to see the module breakdown and timing.
+**Ready to begin?** Continue to [Before You Begin](details.md) to see the module breakdown and timing.
