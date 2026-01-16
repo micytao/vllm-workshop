@@ -80,12 +80,18 @@ copyright: >
 
 nav:
   - Home: index.md
-  - Workshop Overview: overview.md
-  - Workshop Details: details.md
+  - Overview: overview.md
+  - Details: details.md
   - Workshop:
     - "Module 1: Getting Started": workshop/module-01-getting-started.md
     - "Module 2: Structured Outputs": workshop/module-02-structured-outputs.md
     - "Module 3: Tool Calling": workshop/module-03-tool-calling.md
     - "Module 4: MCP Integration": workshop/module-04-mcp-integration.md
     - "Module 5: Performance Testing": workshop/module-05-benchmarking.md
+  - Demo:
+    - "Module 1: Getting Started": demo/module-01-getting-started.md
+    - "Module 2: Structured Outputs": demo/module-02-structured-outputs.md
+    - "Module 3: Tool Calling": demo/module-03-tool-calling.md
+    - "Module 4: MCP Integration": demo/module-04-mcp-integration.md
+    - "Module 5: Performance Testing": demo/module-05-benchmarking.md
   - Conclusion: conclusion.md
