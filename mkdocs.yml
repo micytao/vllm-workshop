@@ -42,6 +42,31 @@ theme:
 plugins:
   - search
   - glightbox
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Overview: 概述
+            Before You Begin: 开始之前
+            Workshop: 实验
+            Demo: 演示
+            Conclusion: 总结
+            "Module 1: Getting Started": "模块 1：快速入门"
+            "Module 2: Structured Outputs": "模块 2：结构化输出"
+            "Module 3: Tool Calling": "模块 3：工具调用"
+            "Module 4: MCP Integration": "模块 4：MCP 集成"
+            "Module 5: Performance Testing": "模块 5：性能测试"
 
 markdown_extensions:
   - pymdownx.highlight:
